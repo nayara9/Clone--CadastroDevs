@@ -1,0 +1,60 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textTittle {
+    font-size: 20px;
+    color:#6a5acd;
+}
+
+.textSub {
+    font-size: 15px;
+    color:#7B68EE
+}
+
+.textQuestions {
+    font-size: 15px;
+    font-weight: bold;
+    color:#6a5acd 
+}
+
+.containerTec , .containerApp  {
+    font-size: 50px;
+    color:#6a5acd;
+}
+
+.containerApp, .containerLevel, .containerTec {
+    font-size: 14px;
+    color: 20px 20px 10px #68228B
+}
+
+.boxQuestions input, .boxLevel select, .boxText textarea {
+    color:#7B68EE;
+    font-size: 13px;
+    border: 1px solid #68228B;
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px #6a5acd ;
+}
+
+.boxQuestions input {
+    height: 21px;
+}
+
+.boxLevel select {
+    height: 25px;
+}
+
+.boxText textarea {
+    width: 350px;
+}
+
+.boxBottom input {
+    font-weight: bold;
+    height: 25px;
+    color:#7B68EE;
+    width: 100px;
+    border: none;
+    background-color:antiquewhite;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px #6a5acd ;
+}
