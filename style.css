@@ -1,14 +1,12 @@
 html {
     font-family: "Roboto", sans-serif;
     padding: 0px;
-    margin: 0px;
- 
+    margin: 0px; 
 }
+
 body{
     background-image: url("/imagem/ceu.jpg") ;
     width: 400px;
-    
-    
 }
 
 .textTittle {
@@ -19,7 +17,6 @@ body{
 }
 
 .textSub {
-  
     font-size: 16px;
     font-weight: bold;
     color:#21922b;
@@ -35,7 +32,6 @@ body{
 
 .textQuestions {
     padding-top: 15px;
-    display: inline-block;
 }
 
 .containerApp, .containerLevel, .containerTec {
@@ -43,14 +39,12 @@ body{
     color:#135339;
 }
 
-
 .boxQuestions input, .boxLevel select, .boxText textarea {
     color:#7B68EE;
     font-size: 14px;
     border: 1px solid #66968a;
     border-radius: 5px; 
     box-shadow: 2px 2px 5px #6a5acd;
-    
 }
 
 .boxQuestions input {
@@ -73,6 +67,112 @@ body{
     border: none;
     border-radius: 3px;
     box-shadow: 2px 2px 5px #6a5acd;
-
 }
 
+.containerTec {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.boxBottom {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.containerQuestions, .containerApp, .boxLevel, .containerTec, .boxText {
+    margin-left: 11px;
+}
+
+.textApp, .textLevel, .textTec, .box {
+    margin-left: 11px;
+}
+/* Mobile-first */
+
+/* Telas minimas de 480px */
+@media screen and ( min-width: 480px) {
+    body {
+        margin:auto;  
+    }
+
+    .tec {
+        display: inline-block;
+    }
+    
+}
+/* Telas minimas de 780px */
+@media screen and ( min-width: 780px) {
+    body {
+        margin:auto;  
+       
+        
+    }
+
+    .tec {
+        display: inline-block;
+    }
+    
+.textTittle{
+    font-size: 22px;
+}
+.textSub {
+    font-size: 19px;
+}
+.textQuestions, .textApp, .textLevel, .textTec, .box {
+    font-size: 18px;
+}
+.containerApp, .containerLevel, .containerTec {
+    font-size: 17px;
+}
+.boxQuestions input, .boxLevel select, .boxText textarea {
+    font-size: 17px;
+}
+.boxText, .containerQuestions, .containerApp, .boxLevel, .containerTec, .boxText {
+    padding-top: 4px;
+}
+.tec {
+    display: inline-block;
+}
+}
+
+/* Telas minimas de 1080px */
+
+@media screen and ( min-width: 1080px) {
+    body {
+        margin:auto;  
+        width: 50%;
+    
+    }
+
+    .tec {
+        display: inline-block;
+    }
+    
+.textTittle{
+    font-size: 22px;
+}
+.textSub {
+    font-size: 19px;
+}
+.textQuestions, .textApp, .textLevel, .textTec, .box {
+    font-size: 18px;
+}
+.containerApp, .containerLevel, .containerTec {
+    font-size: 17px;
+}
+.boxQuestions input, .boxLevel select, .boxText textarea {
+    font-size: 17px;
+}
+.boxText, .containerQuestions, .containerApp, .boxLevel, .containerTec, .boxText {
+    padding-top: 4px;
+}
+.tec {
+    display: inline-block;
+}
+.containerQuestions, .containerApp, .boxLevel, .containerTec, .boxText {
+    margin-left: 185px;
+}
+
+.textApp, .textLevel, .textTec, .box {
+    margin-left:185px;
+}
+}
