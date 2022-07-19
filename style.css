@@ -5,7 +5,7 @@ html {
 }
 
 body{
-    background-image: url("/imagem/ceu.jpg") ;
+    background-image: url("./imagem/ceu.jpg") ;
     width: 400px;
 }
 
@@ -49,6 +49,7 @@ body{
 
 .boxQuestions input {
     height: 21px;
+    width: 350px;
 }
 
 .boxLevel select {
