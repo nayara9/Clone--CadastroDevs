@@ -1,39 +1,56 @@
 html {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
+    padding: 0px;
+    margin: 0px;
+ 
+}
+body{
+    background-image: url("/imagem/ceu.jpg") ;
+    width: 400px;
+    
+    
 }
 
 .textTittle {
-    font-size: 20px;
-    color:#6a5acd;
+    text-align: center;
+    font-size: 18px;
+    color: #25533c;
+    height: 25px;
 }
 
 .textSub {
+  
+    font-size: 16px;
+    font-weight: bold;
+    color:#21922b;
+    text-align: center;
+}
+
+.textQuestions, .textApp, .textLevel, .textTec, .box {
+    height: 20px ;
     font-size: 15px;
-    color:#7B68EE
+    font-weight: bold;
+    color:#135339;
 }
 
 .textQuestions {
-    font-size: 15px;
-    font-weight: bold;
-    color:#6a5acd 
-}
-
-.containerTec , .containerApp  {
-    font-size: 50px;
-    color:#6a5acd;
+    padding-top: 15px;
+    display: inline-block;
 }
 
 .containerApp, .containerLevel, .containerTec {
     font-size: 14px;
-    color: 20px 20px 10px #68228B
+    color:#135339;
 }
+
 
 .boxQuestions input, .boxLevel select, .boxText textarea {
     color:#7B68EE;
-    font-size: 13px;
-    border: 1px solid #68228B;
+    font-size: 14px;
+    border: 1px solid #66968a;
     border-radius: 5px; 
-    box-shadow: 2px 2px 5px #6a5acd ;
+    box-shadow: 2px 2px 5px #6a5acd;
+    
 }
 
 .boxQuestions input {
@@ -54,7 +71,8 @@ html {
     color:#7B68EE;
     width: 100px;
     border: none;
-    background-color:antiquewhite;
     border-radius: 3px;
-    box-shadow: 2px 2px 5px #6a5acd ;
+    box-shadow: 2px 2px 5px #6a5acd;
+
 }
+

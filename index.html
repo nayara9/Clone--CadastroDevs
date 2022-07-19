@@ -5,61 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro Devs</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css"/>
+    
 </head>
 <body>
     <form>
         <header>
+
             <div class="textTittle"><h1>Cadastro de DEVs</h1></div>
             <div class="textSub"><p>Complete suas informações</p></div>
         </header>
 
         <main>
-            <div class="textQuestions"><label for="textName">Nome</label></div>
-            <div class="boxQuestions"><input name="textName" id="textName" type="text"/></div>
-            
-            <div class="textQuestions"><label for="textLastname">Sobrenome</label></div>
-            <div class="boxQuestions"><input name="textLastname" id="textLastname" type="text"/></div>
+            <div class="containerQuestions">
+                <div class="textQuestions"><label for="textName">Nome</label></div>
+                <div class="boxQuestions"><input name="textName" id="textName" type="text"/></div>
+                
+                <div class="textQuestions"><label for="textLastname">Sobrenome</label></div>
+                <div class="boxQuestions"><input name="textLastname" id="textLastname" type="text"/></div>
 
-            <div class="textQuestions"><label for="textEmail">Email</label></div>
-            <div class="boxQuestions"><input name="textEmail" id="textEmail" type="text"/></div>
-            
+                <div class="textQuestions"><label for="textEmail">Email</label></div>
+                <div class="boxQuestions"><input name="textEmail" id="textEmail" type="text"/></div>
+            </div>
             <div>
-                <div class="textQuestions"><p>De qual lado da aplicação você desenvolve?</p></div>
-                <div>
-                    <div class="containerApp"><label><input name="appDev" type="radio" value="0"/>Front-end</label></div>
-                    <div class="containerApp"><label><input name="appDev" type="radio" value="1"/>Back-end</label></div>
-                    <div class="containerApp"><label><input name="appDev" type="radio" value="2"/>Fullstack</label></div>
+                <div class="textApp"><p>De qual lado da aplicação você desenvolve?</p></div>
+                <div class="containerApp">
+                    <div class="app"><label><input name="appDev" type="radio" value="0"/>Front-end</label></div>
+                    <div class="app"><label><input name="appDev" type="radio" value="1"/>Back-end</label></div>
+                    <div class="app"><label><input name="appDev" type="radio" value="2"/>Fullstack</label></div>
                 </div>
             </div>
 
             <div>
-                <div class="textQuestions"><p>Senioridade</p></div>
+                <div class="textLevel"><p>Senioridade</p></div>
                 <div class = "boxLevel">
-                    <select name="level">
+                    <select>
                         <div class="select"><option value="value0">Selecione</option></div>
-                        <div class="containerLevel"><option value="value1">Senior</option></div>
-                        <div class="containerLevel"><option value="value2">Pleno</option></div>
-                        <div class="containerLevel"><option value="value3">Junior</option></div>
+                        <div class="level"><option value="value1">Senior</option></div>
+                        <div class="level"><option value="value2">Pleno</option></div>
+                        <div class="level"><option value="value3">Junior</option></div>
                     </select>
                 </div>
             </div>
 
             <div>
-                <div class="textQuestions"><p>Selecione as tecnologias que utiliza:</p></div>
-                <div>
-                    <div class="containerTec"><label><input name="tec" type="checkbox" value="1"/>HTML</label></div>
-                    <div class="containerTec"><label><input name="tec" type="checkbox" value="2"/>CSS</label></div>
-                    <div class="containerTec"><label><input name="tec" type="checkbox" value="3"/>JavaScript</label></div>
-                    <div class="containerTec"><label><input name="tec" type="checkbox" value="4"/>PHP</label></div>
-                    <div class="containerTec"><label><input name="tec" type="checkbox" value="5"/>C#</label></div>
-                    <div class="containerTec"><label><input name="tec" type="checkbox" value="6"/>Python</label></div>
-                    <div class="containerTec"><label><input name="tec" type="checkbox" value="7"/>Java</label></div>
+                <div class="textTec"><p>Selecione as tecnologias que utiliza:</p></div>
+                <div class="containerTec">
+                    <div class="tec"><label><input name="tec" type="checkbox" value="1"/>HTML</label></div>
+                    <div class="tec"><label><input name="tec" type="checkbox" value="2"/>CSS</label></div>
+                    <div class="tec"><label><input name="tec" type="checkbox" value="3"/>JavaScript</label></div>
+                    <div class="tec"><label><input name="tec" type="checkbox" value="4"/>PHP</label></div>
+                    <div class="tec"><label><input name="tec" type="checkbox" value="5"/>C#</label></div>
+                    <div class="tec"><label><input name="tec" type="checkbox" value="6"/>Python</label></div>
+                    <div class="tec"><label><input name="tec" type="checkbox" value="7"/>Java</label></div>
                 </div>
             </div>
 
             <div>
-                <div class="textQuestions"><label for="tArea">Conte um pouco mais de sua expeciência:</label></div>
+                <div class="box"><label for="tArea">Conte um pouco mais de sua expeciência:</label></div>
                 <div class="boxText"><textarea
                     id="tArea"
                     name="tArea"
